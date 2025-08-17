@@ -10,11 +10,7 @@
       class="coral2"
       alt="Branching coral in shades of pink and orange with rounded tips, set against a transparent background that suggests an underwater scene, evoking a calm and gentle mood"
     />
-    <img
-      src="coral3P.png"
-      class="coral3"
-      alt="Sea anemone with long flowing tentacles in shades of blue and lavender spreading outward in all directions, set against a transparent background that suggests an underwater environment, creating a tranquil and gentle mood"
-    />
+
     <img
       src="Shell1P.png"
       class="Shell1P"
@@ -171,6 +167,7 @@
       .container {
         position: relative;
         background: rgb(192, 106, 37);
+        padding-top: 100px;
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -242,31 +239,18 @@
 
       .coral2 {
         position: absolute;
-        width: 200px;
-        height: auto;
-        transform: rotate(-15deg);
-        left: 0%;
-        top: 50%; /* adjust up/down */
-        transform: translateX(-40%);
-      }
-      .coral3 {
-        /* stick it relative to container */
-        position: absolute;
-        bottom: 0;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 150px;
-        height: auto;
-        /* so it doesn’t block clicks */
+        top: 30%;
+        right: -60px; /* sticks out */
+        width: 120px;
+        transform: rotate(-20deg);
       }
 
-      .shell1P {
+      .Shell1P {
         position: absolute;
-        left: 0;
-        top: 30%; /* adjust up/down */
-        transform: translateX(-40%);
-        width: 120px;
-        height: auto;
+        top: 25%;
+        left: -60px;
+        width: 100px;
+        transform: rotate(15deg);
       }
     </style>
   </body>
