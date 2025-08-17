@@ -50,47 +50,53 @@
         margin-top: 20px;
         font-size: 18px;
         font-weight: bold;
-        .bubble {
-          position: absolute;
-          top: -50px; /* start above the screen */
-          width: 30px;
-          height: 30px;
-          background-color: rgba(225, 233, 235, 0.963); /* light blue bubble */
-          border-radius: 50%; /* circle */
-          animation: fall 5s linear infinite;
-          left: calc(10% + 80% * var(--i)); /* horizontal spread */
-          pointer-events: none; /* so they don’t block clicks */
-        }
-        @keyframes fall {
-          0% {
-            transform: translateY(0) scale(1);
-          }
-          100% {
-            transform: translateY(100vh) scale(0.5);
-          }
-        }
+      }
 
-        /* spread bubbles horizontally and give different speeds */
-        .bubble:nth-child(1) {
-          --i: 0;
-          animation-duration: 4s;
+      .bubble {
+        position: absolute;
+        bottom: -50px; /* start below the screen */
+        width: 60px;
+        height: 60px;
+        background-color: rgba(173, 216, 230, 0.3); /* light blue bubble */
+        border-radius: 50%; /* circle */
+        animation: rise 5s linear infinite;
+        left: calc(10% + 80% * var(--i)); /* horizontal spread */
+        pointer-events: none; /* so they don’t block clicks */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        background: radial-gradient(
+          circle at 30% 30%,
+          rgba(255, 255, 255, 0.7),
+          rgba(173, 216, 230, 0.3)
+        );
+      }
+      @keyframes rise {
+        0% {
+          transform: translateY(0) scale(1);
         }
-        .bubble:nth-child(2) {
-          --i: 0.2;
-          animation-duration: 6s;
+        100% {
+          transform: translateY(-100vh) scale(0.5);
         }
-        .bubble:nth-child(3) {
-          --i: 0.4;
-          animation-duration: 5s;
-        }
-        .bubble:nth-child(4) {
-          --i: 0.6;
-          animation-duration: 7s;
-        }
-        .bubble:nth-child(5) {
-          --i: 0.8;
-          animation-duration: 4.5s;
-        }
+      }
+      /* spread bubbles horizontally and give different speeds */
+      .bubble:nth-child(1) {
+        --i: 0;
+        animation-duration: 4s;
+      }
+      .bubble:nth-child(2) {
+        --i: 0.2;
+        animation-duration: 6s;
+      }
+      .bubble:nth-child(3) {
+        --i: 0.4;
+        animation-duration: 5s;
+      }
+      .bubble:nth-child(4) {
+        --i: 0.6;
+        animation-duration: 7s;
+      }
+      .bubble:nth-child(5) {
+        --i: 0.8;
+        animation-duration: 4.5s;
       }
     </style>
   </body>
