@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <div class="container">
+  <img src="three-seashells.png" class="seashell" alt="Seashell sticker">
     <title>Go Home/Go Run -Aquatic Edition</title>
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -13,9 +15,23 @@
     <div class="bubble"></div>
     <div class="bubble"></div>
     <div class="bubble"></div>
-    <div class="container">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
       <h1>Go Home or Go Run? -Aquatic Edition</h1>
-      <input type="text" id="animalInput" placeholder="Type an animal..." />
+      <input
+        type="text"
+        id="animalInput"
+        placeholder="Type an animal on screen.."
+      />
       <button onclick="checkAnimal()">Submit</button>
       <div id="result"></div>
     </div>
@@ -23,10 +39,10 @@
 
     <style>
       body {
-        font-family: Stencil Std, fantasy;
+        font-family: OCR A Std, monospace;
+        font-weight: bold;
         background-color: lightblue;
         text-align: center;
-
         padding-top: 200px;
         padding-right: 40px;
         padding-bottom: 40px;
@@ -34,6 +50,7 @@
       }
 
       .container {
+        position: relative;
         background: darkblue;
         padding: 20px;
         border-radius: 12px;
@@ -43,7 +60,7 @@
       }
 
       h1 {
-        color: darkgoldenrod;
+        color: rgb(221, 202, 155);
       }
 
       #result {
@@ -88,16 +105,22 @@
       }
       .bubble:nth-child(3) {
         --i: 0.4;
-        animation-duration: 5s;
+        animation-duration: 8s;
       }
       .bubble:nth-child(4) {
         --i: 0.6;
-        animation-duration: 7s;
+        animation-duration: 10s;
       }
-      .bubble:nth-child(5) {
-        --i: 0.8;
-        animation-duration: 4.5s;
-      }
+      
+      .seashell {
+  position: absolute;  /* stick it relative to container */
+  width: 40px;         /* small sticker size */
+  height: auto;
+  top: -10px;          /* tweak to position near container edge */
+  left: -10px;         /* tweak for side placement */
+  transform: rotate(-15deg); /* optional: tilt for playful look */
+  pointer-events: none; /* so it doesn’t block clicks */
+}
     </style>
   </body>
 </html>
