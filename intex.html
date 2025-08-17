@@ -5,24 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <img
-      src="coral2P.png"
-      class="coral2"
-      alt="Branching coral in shades of pink and orange with rounded tips, set against a transparent background that suggests an underwater scene, evoking a calm and gentle mood"
-    />
-
-    <img
-      src="Shell1P.png"
-      class="Shell1P"
-      alt="Red coral branch with intricate"
-    />
-
     <div class="container">
-      <img
-        src="seashell3.png"
-        class="seashells3"
-        alt="Three colorful scallop seashells in orange, yellow, and purple arranged in a playful overlapping pattern on a transparent background, evoking a cheerful and summery beach atmosphere"
-      />
+      <img src="seashell3.png" class="seashells3" alt="Three colorful seashells
       <img
         src="Seashells2.png"
         class="Seashells2"
@@ -30,10 +14,17 @@
       />
 
       <h1>Home or Run</h1>
+
+      <style>
+        h1 {
+          font-size: 400%;
+        }
+      </style>
+
       <h3>𓆉°❀⋆.ೃ࿔*:･</h3>
       <style>
         h3 {
-          font-size: 160%; /* 20% larger than parent text */
+          font-size: 300%; /* 20% larger than parent text */
         }
       </style>
 
@@ -41,6 +32,7 @@
         type="text"
         id="animalInput"
         placeholder="Type an animal on screen.."
+        class="animal5"
       />
       <button onclick="checkAnimal()">Submit</button>
       <div id="result"></div>
@@ -162,20 +154,28 @@
         padding-right: 40px;
         padding-bottom: 40px;
         padding-left: 20px;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .container {
         position: relative;
-        background: rgb(192, 106, 37);
-        padding-top: 100px;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        max-width: 400px;
-        margin: auto;
-        overflow: visible;
+        background: rgb(192, 106, 37); /* padding: top, right, bottom, left */
+        width: 600px; /* bigger inside space */
+        padding: 40px;
+        border-radius: 20px;
+        text-align: center;
       }
-
+      .animal5 {
+        width: 80%; /* wide search bar */
+        padding: 12px;
+        font-size: 2.5rem;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+      }
       h1 {
         color: rgb(221, 202, 155);
       }
@@ -228,29 +228,11 @@
         pointer-events: none; /* so it doesn’t block clicks */
       }
       .Seashells2 {
-        position: absolute; /* stick it relative to container */
-        width: 100px; /* small sticker size */
+        position: absolute;
+        bottom: 0; /* stick to bottom */
+        left: 0; /* stick to left */
+        width: 150px;
         height: auto;
-        bottom: -20px; /* tweak to position near container edge */
-        right: -30px; /* tweak for side placement */
-        transform: rotate(-15deg); /* optional: tilt for playful look */
-        pointer-events: none; /* so it doesn’t block clicks */
-      }
-
-      .coral2 {
-        position: absolute;
-        top: 30%;
-        right: -60px; /* sticks out */
-        width: 120px;
-        transform: rotate(-20deg);
-      }
-
-      .Shell1P {
-        position: absolute;
-        top: 25%;
-        left: -60px;
-        width: 100px;
-        transform: rotate(15deg);
       }
     </style>
   </body>
