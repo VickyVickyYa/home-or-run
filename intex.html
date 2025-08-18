@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+  <index class="html"></index>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
   <body>
-    <div class="container">
-      <img src="seashell3.png" class="seashells3" alt="Three colorful seashells
-      <img
-        src="Seashells2.png"
-        class="Seashells2"
-        alt="A single pink scallop seashell"
-      />
+    <img src="coral2P.png" class="coral2P" alt="the pink one i guess" />
+    <img src="Shell1P.png" class="Shell1P" alt="cannot tell" />
 
-      <h1>Home or Run</h1>
+    <div class="container">
+      <img
+        src="seashell3.png"
+        class="seashells3"
+        alt="Three colorful seashells"
+      />
+      <img src="seashells2.png" class="Seashells2" alt="Test Seashells2" />
+
+      <h1>Home or Run -Aquatic Edition</h1>
 
       <style>
         h1 {
@@ -161,18 +165,39 @@
         align-items: center;
       }
 
+      .coral2P {
+        position: absolute;
+        left: 0; /* stick to left edge */
+        top: 50%; /* middle vertically */
+        transform: translateY(-50%); /* perfect vertical centering */
+        width: 300px; /* adjust size as needed */
+        height: auto;
+      }
+      .Shell1P {
+        position: absolute;
+        right: 0; /* stick to right edge */
+        top: 50%; /* middle vertically */
+        transform: translateY(-50%); /* perfect vertical centering */
+        width: 500px; /* adjust size as needed */
+        height: auto; /* maintain aspect ratio */
+      }
+
       .container {
         position: relative;
         background: rgb(192, 106, 37); /* padding: top, right, bottom, left */
-        width: 600px; /* bigger inside space */
-        padding: 40px;
+        max-width: 90%;
+        width: 800px; /* bigger inside space */
+        padding: 20px;
         border-radius: 20px;
         text-align: center;
+        margin: 50px auto;
+        height: 400px;
+        display: inline-block;
       }
       .animal5 {
         width: 80%; /* wide search bar */
         padding: 12px;
-        font-size: 2.5rem;
+        font-size: 2rem;
         border-radius: 8px;
         border: 1px solid #ccc;
       }
@@ -220,7 +245,7 @@
 
       .seashells3 {
         position: absolute; /* stick it relative to container */
-        width: 130px; /* small sticker size */
+        width: 180px; /* small sticker size */
         height: auto;
         top: -60px; /* tweak to position near container edge */
         left: -50px; /* tweak for side placement */
@@ -230,8 +255,8 @@
       .Seashells2 {
         position: absolute;
         bottom: 0; /* stick to bottom */
-        left: 0; /* stick to left */
-        width: 150px;
+        right: 0; /* stick to left */
+        width: 140px;
         height: auto;
       }
     </style>
