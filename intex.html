@@ -28,14 +28,14 @@
       <h3>𓆉°❀⋆.ೃ࿔*:･</h3>
       <style>
         h3 {
-          font-size: 300%; /* 20% larger than parent text */
+          font-size: 200%; /* 20% larger than parent text */
         }
       </style>
 
       <input
         type="text"
         id="animalInput"
-        placeholder="Type an animal on screen.."
+        placeholder="Type a creature from the below box.."
         class="animal5"
       />
       <button onclick="checkAnimal()">Submit</button>
@@ -50,7 +50,7 @@
       style="
         width: 25px;
         height: 25px;
-        left: 50%;
+        left: 20%;
         animation-duration: 8s;
         animation-delay: 2s;
       "
@@ -60,8 +60,8 @@
       style="
         width: 60px;
         height: 60px;
-        left: 70%;
-        animation-duration: 5s;
+        left: 95%;
+        animation-duration: 7s;
         animation-delay: 4s;
       "
     ></div>
@@ -70,7 +70,7 @@
       style="
         width: 15px;
         height: 15px;
-        left: 30%;
+        left: 85%;
         animation-duration: 9s;
         animation-delay: 6s;
       "
@@ -80,7 +80,7 @@
       style="
         width: 35px;
         height: 35px;
-        left: 80%;
+        left: 20%;
         animation-duration: 10s;
         animation-delay: 1s;
       "
@@ -90,7 +90,7 @@
       style="
         width: 60px;
         height: 60px;
-        left: 35%;
+        left: 20%;
         animation-duration: 11s;
         animation-delay: 1s;
       "
@@ -100,7 +100,7 @@
       style="
         width: 25px;
         height: 25px;
-        left: 75%;
+        left: 30%;
         animation-duration: 6s;
         animation-delay: 1s;
       "
@@ -120,7 +120,7 @@
       style="
         width: 60px;
         height: 60px;
-        left: 90%;
+        left: 70%;
         animation-duration: 5s;
         animation-delay: 1s;
       "
@@ -130,7 +130,7 @@
       style="
         width: 60px;
         height: 60px;
-        left: 20%;
+        left: 80%;
         animation-duration: 5s;
         animation-delay: 1s;
       "
@@ -140,8 +140,8 @@
       style="
         width: 80px;
         height: 80px;
-        left: 50%;
-        animation-duration: 5s;
+        left: 90%;
+        animation-duration: 6s;
         animation-delay: 1s;
       "
     ></div>
@@ -150,7 +150,7 @@
 
     <style>
       body {
-        font-family: Optima, sans-serif;
+        font-family: Bradley Hand, cursive;
         font-weight: bold;
         background-color: lightblue;
         text-align: center;
@@ -167,7 +167,7 @@
 
       .coral2P {
         position: absolute;
-        left: 0; /* stick to left edge */
+        left: 50px; /* stick to left edge */
         top: 50%; /* middle vertically */
         transform: translateY(-50%); /* perfect vertical centering */
         width: 300px; /* adjust size as needed */
@@ -175,10 +175,10 @@
       }
       .Shell1P {
         position: absolute;
-        right: 0; /* stick to right edge */
+        right: -100px; /* stick to right edge */
         top: 50%; /* middle vertically */
         transform: translateY(-50%); /* perfect vertical centering */
-        width: 500px; /* adjust size as needed */
+        width: 700px; /* adjust size as needed */
         height: auto; /* maintain aspect ratio */
       }
 
@@ -190,14 +190,14 @@
         padding: 20px;
         border-radius: 20px;
         text-align: center;
-        margin: 50px auto;
+        margin-block-end: 120px;
         height: 400px;
         display: inline-block;
       }
       .animal5 {
         width: 80%; /* wide search bar */
         padding: 12px;
-        font-size: 2rem;
+        font-size: 1.5rem;
         border-radius: 8px;
         border: 1px solid #ccc;
       }
@@ -220,7 +220,7 @@
         border-radius: 50%;
         background: radial-gradient(
           circle,
-          rgba(218, 239, 255, 0.9),
+          rgba(239, 248, 255, 0.9),
           rgba(173, 216, 230, 0.3)
         );
         animation: rise 6s infinite ease-in;
@@ -247,16 +247,16 @@
         position: absolute; /* stick it relative to container */
         width: 180px; /* small sticker size */
         height: auto;
-        top: -60px; /* tweak to position near container edge */
-        left: -50px; /* tweak for side placement */
-        transform: rotate(-15deg); /* optional: tilt for playful look */
+        top: -100px; /* tweak to position near container edge */
+        left: -120px; /* tweak for side placement */
+        transform: rotate(-30deg); /* optional: tilt for playful look */
         pointer-events: none; /* so it doesn’t block clicks */
       }
       .Seashells2 {
         position: absolute;
-        bottom: 0; /* stick to bottom */
-        right: 0; /* stick to left */
-        width: 140px;
+        top: -40px; /* stick to bottom */
+        right: -50px; /* stick to left */
+        width: 120px;
         height: auto;
       }
     </style>
