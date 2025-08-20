@@ -1,3 +1,7 @@
 
   <img src="Search box.png" class="search-box" alt="looks like underwater" />
- 
+   bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; /* adjust size as needed */
+  z-index: -1; /*i

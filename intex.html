@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-  <index class="html"></index>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,7 +8,9 @@
     <img src="coral2P.png" class="coral2P" alt="the pink one i guess" />
     <img src="Shell1P.png" class="Shell1P" alt="cannot tell" />
 
+
     <div class="container">
+      <img src="Medal.png" alt="Medal" class="Medal">
       <img
         src="seashell3.png"
         class="seashells3"
@@ -35,7 +36,7 @@
       <input
         type="text"
         id="animalInput"
-        placeholder="Type a creature from the below box.."
+        placeholder="Type a creature from the box.." 
         class="animal5"
       />
       <button onclick="checkAnimal()">Submit</button>
@@ -143,8 +144,17 @@
         left: 90%;
         animation-duration: 6s;
         animation-delay: 1s;
-      "
-    ></div>
+      " ></div>
+  <div
+    class="bubble"
+    style="
+      width: 80px;
+      height: 80px;
+      right: 95%;
+      animation-duration: 5s;
+      animation-delay: 25ms;
+    "
+  ></div>
 
     <script src="script.js"></script>
 
@@ -163,6 +173,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
+     
       }
 
       .coral2P {
@@ -181,6 +193,17 @@
         width: 700px; /* adjust size as needed */
         height: auto; /* maintain aspect ratio */
       }
+     .Medal {
+     position :static;
+     display: block;
+     margin:  50px auto ;
+       width: 700px; /* adjust size as needed */
+
+      
+     }
+
+
+
 
       .container {
         position: relative;
@@ -193,6 +216,7 @@
         margin-block-end: 120px;
         height: 400px;
         display: inline-block;
+
       }
       .animal5 {
         width: 80%; /* wide search bar */
@@ -259,6 +283,22 @@
         width: 120px;
         height: auto;
       }
+
+
+
+      button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background: rgb(194, 93, 26);
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(125, 53, 9);
+}
     </style>
   </body>
 </html>
