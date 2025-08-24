@@ -1,15 +1,19 @@
 function checkAnimal() {
     const animal = document.getElementById("animalInput").value.toLowerCase();
+
+    // Map of animal names to their page
+    const animals = {
+        "sea apple": "sea-apple.html",
+        "sea turtle": "sea-turtle.html",
+       "yeti crab": "yeti-crab.html",
+       "beluga whale": "beluga-whale,html",
+        // add more animals here...
+    };
+
+    if (animals[animal]) {
+        window.location.href = animals[animal];
+    } else {
+        document.getElementById("result").textContent = "I don’t know that animal yet!";
+    }
 }
-
-if (animal === "sea apple") {
-    window.location.href = "sea_apple.html";
-}
-else {
-    alert("Sorry, we don't have that animal page yet!");
-}
-
-document.getElementById("result").textContent = "I don’t know that animal yet!";
-
-
 

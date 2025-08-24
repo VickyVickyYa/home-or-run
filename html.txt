@@ -5,3 +5,57 @@
   transform: translateX(-50%);
   width: 700px; /* adjust size as needed */
   z-index: -1; /*i
+
+    background-image: url("sea-apple.svg");    
+
+        <source src ="sea-apple.svg" type="image/svg+xml"> </source>
+
+
+
+
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+
+
+
+<body>    
+<style> 
+
+.snow-white {
+margin: 0;
+  padding: 0;
+  background-image: url("sea-apple.svg");
+  background-size: cover;      /* makes it cover the whole page */
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 100vh;            }   
+    
+    .run1 {
+      position: absolute;
+      top: 80%;
+      left: -90%;
+      width: 500px;
+      height: 200px;
+     /* places the video behind other content */
+    }
+
+
+
+
+</style>
+
+ <video class="run1" autoplay muted loop>
+     <source src="run1.mp4" type="video/mp4">  </video>
+      <img src ="sea-apple.svg" type="image/svg+xml" class = "Snow-white"> </img> 
+       
+
+ </body>
+
+
+    
