@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lion fish </title>
+<script src="script.js"></script>
 
 </head>
 
+
 <style> 
- body>  
- {
+
+body
+
+
+.lion  {
   position: relative;
 margin: 0;
   padding: 0;
-  background-image: url("lion-fish.svg)");
-  background-size: cover;     
+  background-image: url("lionfish.svg");
+  background-size: cover;      /* makes it cover the whole page */
   background-repeat: no-repeat;
   background-position: center; 
   height: 100vh;      
- overflow: hidden;      }
+ overflow: hidden;      
+ }
 
  .run1 {
       position: absolute; 
@@ -26,8 +32,10 @@ margin: 0;
       height: 250px;
       object-fit: cover;  
       left: 50%;
-      top: 200%;
+      top: 30%;
     }
+
+
 
 
  
@@ -35,14 +43,25 @@ margin: 0;
 
   </style> 
 
-  <img src ="lion-fish.svg" type="image/svg+xml"> </img>
+   <audio autoplay>
+  <source src="runmeme.mp3" type="audio/mpeg">
+</audio>
 
-  <audio autoplay  control loop > 
-   <source src="runmeme.mp3" type="audio/mpeg">
-  </audio>
 
-   <video class="run1" autoplay loop muted >
-     <source src="run1.mp4" type="video/mp4">  </video>
+<div class="lion">
+ <img src ="lion-fish.svg"  type="image/svg+xml"> </img>
+</div>
+ 
+
+
+  <video class="run1" autoplay loop muted>
+    <source src="run1.mp4" type="video/mp4">
+</video>
+
+
 
 </body>
+
+
+
 </html> 

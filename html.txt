@@ -58,4 +58,83 @@ margin: 0;
  </body>
 
 
-    
+    <audio id="runmusic" loop>
+  <source src="runmeme.MP3"  type="audio/mpeg">
+</audio>
+
+
+
+
+
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lion fish </title>
+<script src="script.js"></script>
+
+</head>
+
+
+<style> 
+
+<body
+
+{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;  /* hides horizontal scrolling */
+  width: 100%;
+  height: 100%;
+}
+
+.lion{
+  position: relative;
+margin: 0;
+  padding: 0;
+  background-image: url("lion-fish.svg");
+  background-size: auto;     
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 80vh;      
+  
+ }
+
+ .run1 {
+      position: absolute; 
+      width: 700px;
+      height: 290px;
+      object-fit: cover;  
+      left: 15%;
+      top: 215%;
+ 
+    }
+
+
+ 
+ 
+
+  </style> 
+
+   <audio autoplay>
+  <source src="runmeme.mp3" type="audio/mpeg">
+</audio>
+
+
+
+  <img src ="lion-fish.svg" class="lion" type="image/svg+xml"> </img>
+
+
+  <video class="run1" autoplay loop muted>
+    <source src="run1.mp4" type="video/mp4">
+</video>
+
+
+
+</body>
+
+
+
+</html> 
