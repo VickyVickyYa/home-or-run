@@ -15,6 +15,9 @@ function checkAnimal() {
        "cone snail":"cone-snail.html",
        "fang blennies":"fang-blennies.html",
        "tiger shark":"tiger-shark.html",
+       "spiny devilfish":"spiny-devilfish.html",
+       "sarcastic fringehead":"sarcastic-fringehead.html",
+
          };
 
     if (animals[animal]) {
