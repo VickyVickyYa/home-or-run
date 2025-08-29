@@ -4,7 +4,7 @@ Home or Run
 I made this website called Home or Run, it was inspired by the season of summer and my close friend Olivia who had a passion to become a Marine Biologist and would constantly talk about how fascinating creatures at sea are, how they survive, protect themselves and hunt. Which gave me an idea how to make an informational webpage that would lead to a vibrant interactive webpage that talks about the aquatic creatures and whether you should hug and take them home or rather you need to run as fast as you can. Learning about their abilities, characteristics, behaviors, where they are from, and even personalities with my fun hopefully (funny) writing style. 
 
 How to use "Home or Run" 
-On the main page there is a word box  with many animals listed. I used Java script to give an output when you type an animal in the word box which is brown and decorated with seashells  and above the search box  will take you to another webpage. Also this webpage must have the right spelling in order for it to function. 
+On the main page there is a word box  with many animals listed. The word box which is brown and decorated with seashells the search box is under it, you type an animal in and  will take you to another webpage you can go back to search more animals. Also this webpage must have the right spelling in order for it to function. 
 
 Languages used: HTML, CSS and Java Script. 
 Resources: Visual Studio Code, Codecademy, for making svg's used Canva, W3Schools, Youtube, google search. 
