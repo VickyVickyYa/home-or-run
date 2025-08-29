@@ -11,10 +11,11 @@ How I made the "Home or Run" was to first design the main page where I would put
 Challenges I faced with this project made me think, should I just start something I am more familiar with, something that already has the answers and is structured then whatever is happening in my own mind. But I learned if I was ever to learn I have to do something that I might be terrible at, one of things might be sizing my images properly preventing horizontal scrolling and overflow which took a while...padding and the border being the right size making sure all my files were below 800px. Finding out I misspelled index.html to intex.html when I tried uploading it to git hub playable url  it would not work I thought I did everything right, couldn't find out what was going until later I looked at my file and other videos to help me find out what was going to look closely and theirs said index and git hub can't recognize "intex" . When I tried to attach the sea shells to the brown container either too big, too small or just not in the right position. If seen my commits were mostly fixing this issue. Things I have learned was I am capable of If I don't give up if things start to be challenging. I learned a lot more about HTML and CSS, how order is important, closing tags, and how .class works which was satisfying selector to use. Surprisingly, making web pages is easier than I thought before I  was avoiding these languages. 
 Languages used: HTML, CSS and Java Script. 
 Resources: Visual Studio Code, Codecademy, for making svg's used Canva, W3Schools, Youtube, google search. 
-
 Music Credits: 
 1.https://www.youtube.com/watch?v=9kzE8isXlQY Youtube Channel: Chill chill journal title: Less talk.... more action. / Lo-fi for study, work ( with Rain sounds)
 2.https://www.youtube.com/watch?v=H1xnKPtQl-s&list=PLfLYIvrJj4yBXXPv-ea3-jzVsBGy1kce6 Youtube Channel: Chill pill studio Title: 20 minutes - Relax & study with me Lofi | Tunes of Capy
+https://bin.phthallo.com/clLUOC.md 
+
 
 
 
